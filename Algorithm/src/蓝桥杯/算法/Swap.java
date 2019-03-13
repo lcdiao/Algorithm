@@ -1,4 +1,4 @@
-package ╦сие;
+package 蓝桥杯.算法;
 
 import java.lang.reflect.Field;
 
