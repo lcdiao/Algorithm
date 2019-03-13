@@ -2,6 +2,22 @@ package LintCode;
 
 /**
  * Created by diao on 2019/3/13
+ * 对于一个给定的 source 字符串和一个 target 字符串，你应该在 source 字符串中找出 target 字符串出现的第一个位置(从0开始)。如果不存在，则返回 -1。
+ *
+ * 样例
+ * 样例  1:
+ * 	输入: source = "source" ， target = "target"
+ * 	输出:-1
+ *
+ * 	样例解释:
+ * 	如果source里没有包含target的内容，返回-1
+ *
+ * 样例 2:
+ * 	输入: source = "abcdabcdefg" ，target = "bcd"
+ * 	输出: 1
+ *
+ * 	样例解释:
+ * 	如果source里包含target的内容，返回target在source里第一次出现的位置
  */
 public class 字符串查找 {
     public static void main(String[] args) {
