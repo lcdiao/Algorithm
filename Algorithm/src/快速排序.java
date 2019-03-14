@@ -47,6 +47,7 @@ public class 快速排序 {
     }
 
     public static void quick_sort2(int[] a,int left,int right){
+
         if(left<right){
             int i=left;
             int j=right;
