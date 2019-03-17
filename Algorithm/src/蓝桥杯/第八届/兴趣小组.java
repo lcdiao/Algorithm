@@ -1,4 +1,4 @@
-package 第八届;
+package 蓝桥杯.第八届;
 
 public class 兴趣小组 {
 
