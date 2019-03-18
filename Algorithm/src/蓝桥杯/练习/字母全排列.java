@@ -1,7 +1,7 @@
 package 练习;
 
 public class 字母全排列 {
-	static String s = "ABCDEFGHIJ";
+	static String s = "ABCDE";
 	static char[] c = s.toCharArray();
 	static int count=0;
 	static void f(int n)
