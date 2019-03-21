@@ -47,6 +47,7 @@ public class 二叉树的所有路径 {
         TreeNode right = new TreeNode(2);
         TreeNode left = new TreeNode(3);
         root.right = right;
+        root.left = left;
         right.left = left;
         System.out.println(binaryTreePaths(root));
     }
