@@ -2,6 +2,7 @@ package LintCode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -37,8 +38,18 @@ public class 区间最小覆盖 {
         a.add(new Interval(13,83));
         a.add(new Interval(5,89));
         a.add(new Interval(53,71));
+
+//        a.sort(new Comparator<Interval>() {
+//            @Override
+//            public int compare(Interval o1, Interval o2) {
+//                return o1.start - o2.start;
+//            }
+//        });
+
 //        a.sort( (i,j) -> i.start - j.start);
 //        a.forEach( System.out::println);
+
+
         System.out.println(getAns(a));
     }
     /**
