@@ -4,77 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/LintCode/青铜到白银1/翻转二叉树.java" line="38" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1a764fa-8039-4312-8ea6-d78d713a0629" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/中位数下标.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的中序遍历$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的中序遍历.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的前序遍历$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的前序遍历.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的所有路径$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的所有路径.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的最大深度$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的最大深度.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的结点$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的结点.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的路径和$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/二叉树的路径和.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/会议室$Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/会议室.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/出现次数最多的字母.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/删除链表中的第n到m个节点$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/删除链表中的第n到m个节点.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/区间最小覆盖$Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/区间最小覆盖.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/区间统计.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/去除重复元素.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/合法标识符.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/回合制游戏.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/多关键字排序.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/字符串查找.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/排颜色II.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/搜索插入位置.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/数组划分.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/整数排序.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/最小子数组.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/相反的顺序存储$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/相反的顺序存储.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/第一个只出现一次的字符.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/翻转二叉树$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/翻转二叉树.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/翻转字符串中的单词.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/落单的数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/链表的中点$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LintCode/链表的中点.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/中位数下标.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/中位数下标.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/二叉树的中序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/二叉树的中序遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/二叉树的前序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/二叉树的前序遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/二叉树的所有路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/二叉树的所有路径.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/二叉树的最大深度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/二叉树的最大深度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/二叉树的结点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/二叉树的结点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/二叉树的路径和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/二叉树的路径和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/会议室.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/会议室.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/出现次数最多的字母.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/出现次数最多的字母.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/删除链表中的第n到m个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/删除链表中的第n到m个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/区间最小覆盖.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/区间最小覆盖.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/区间统计.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/区间统计.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/去除重复元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/去除重复元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/合法标识符.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/合法标识符.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/回合制游戏.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/回合制游戏.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/多关键字排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/多关键字排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/字符串查找.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/字符串查找.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/排颜色II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/排颜色II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/搜索插入位置.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/搜索插入位置.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/数组划分.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/数组划分.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/整数排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/整数排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/最小子数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/最小子数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/相反的顺序存储.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/相反的顺序存储.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/第一个只出现一次的字符.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/第一个只出现一次的字符.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/翻转二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/翻转二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/翻转字符串中的单词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/翻转字符串中的单词.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/落单的数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/落单的数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LintCode/链表的中点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LintCode/青铜到白银1/链表的中点.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1a764fa-8039-4312-8ea6-d78d713a0629" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +50,7 @@
     <session id="-1497997931">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -171,7 +101,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LintCode/白银2/寻找旋转排序数组中的最小值.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="380">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
@@ -309,7 +239,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553527021696" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553527134370" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -809,12 +739,12 @@
       <workItem from="1553309582876" duration="7355000" />
       <workItem from="1553329609071" duration="818000" />
       <workItem from="1553506772201" duration="1350000" />
-      <workItem from="1553520993335" duration="5128000" />
+      <workItem from="1553520993335" duration="5170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74368000" />
+    <option name="totallyTimeSpent" value="74410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -828,7 +758,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26681128" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26681128" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39154014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1212,7 +1142,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LintCode/白银2/寻找旋转排序数组中的最小值.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="380">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
