@@ -71,6 +71,7 @@ public class 区间统计 {
                 0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,
                 0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,
                 0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0};
+        arr = new int[]{0,0,0,1,0,0,1,1};
         System.out.println(intervalStatistics(arr,1));
     }
 
@@ -86,11 +87,7 @@ public class 区间统计 {
         int len = arr.length;
         long b = 0;
         for (int i = 0; i < len; i++) {
-            if (arr[i] == 1) {
-                while (i+1 < len && arr[i+1] == 1) {
-                    i++;
-                }
-            } else {
+            if (arr[i] == 0) {
                 b++;
                 if ( i+1 < len) {
                     int sum = 0;
@@ -107,7 +104,30 @@ public class 区间统计 {
                 }
             }
         }
+        //m2 + n2 + min
         return b;
     }
 
+    public static long intervalStatistics2(int[] arr, int k) {
+        if (null == arr || arr.length == 0) {
+            return 0;
+        }
+        int len = arr.length;
+        int b = 0;
+        long result = 0;
+        for (int i = 0; i < len; i++) {
+            if (arr[i] == 0) {
+                b++;
+            } else if (arr[i] == 1 && i+1 < len && arr[i+1] == 0) {
+                int n = f(b);
+                b = 0;
+                result += n;
+            }
+        }
+        return result;
+    }
+
+    public static int f(int n) {
+        return n*(n+1)/2;
+    }
 }
