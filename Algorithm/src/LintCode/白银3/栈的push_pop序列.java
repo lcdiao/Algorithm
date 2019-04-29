@@ -24,8 +24,10 @@ import java.util.Stack;
 public class 栈的push_pop序列{
 
     public static void main(String[] args) {
-        int[] push = new int[]{1,2,3};
-        int[] pop = new int[]{3,2,1};
+        int[] push = new int[]{1,2,3,2,4};
+        int[] pop = new int[]{2,4,3,2,1};
+//        int[] push = new int[]{1,2,3,4,5};
+//        int[] pop = new int[]{4,5,3,2,1};
         System.out.println(isLegalSeq(push,pop));
     }
 
@@ -35,24 +37,41 @@ public class 栈的push_pop序列{
      * @return: return whether there are legal sequences
      */
     public static boolean isLegalSeq(int[] push, int[] pop) {
-        if (null == push) {
+        if (null == push || push.length!=pop.length) {
             return false;
-        }
-        if (pop == null) {
-            return true;
         }
         Stack<Integer> pushStack = new Stack<>();
         int len = push.length;
-        for (int i = 0; i < len; i++) {
-            pushStack.push(push[i]);
-        }
         int idx = 0;
         for (int i = 0; i < len; i++) {
-            if (pushStack.pop() != pop[i]) {
-                return false;
+            if (push[i] != pop[idx]) {
+                pushStack.push(push[i]);
+            } else {
+                boolean flag = false;
+                if (idx+1 < len) {
+                    if (i + 1 < len && pop[idx+1] == push[i+1]) {
+                        flag = true;
+                    } else if (i - 1 >= 0 && pop[idx + 1] == push[i - 1]) {
+                        flag = true;
+                    } else if (i + 1 == len) {
+                        flag = true;
+                    }
+                }
+                if (flag) {
+                    idx++;
+                    while (!pushStack.empty() && pushStack.peek() == pop[idx]) {
+                        idx++;
+                        pushStack.pop();
+                    }
+                } else {
+                    pushStack.push(push[i]);
+                }
             }
         }
-
-        return true;
+        if (pushStack.empty()) {
+            return true;
+        }
+        return false;
     }
+
 }
