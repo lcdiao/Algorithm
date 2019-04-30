@@ -24,10 +24,12 @@ import java.util.Stack;
 public class 栈的push_pop序列{
 
     public static void main(String[] args) {
-        int[] push = new int[]{1,2,3,2,4};
+        int[] push = new int[]{1,2,3,4};
         int[] pop = new int[]{2,4,3,2,1};
-//        int[] push = new int[]{1,2,3,4,5};
-//        int[] pop = new int[]{4,5,3,2,1};
+
+        push = new int[]{1,2,4,3};
+        pop = new int[]{2,3,4,1};
+
         System.out.println(isLegalSeq(push,pop));
     }
 
@@ -47,25 +49,13 @@ public class 栈的push_pop序列{
             if (push[i] != pop[idx]) {
                 pushStack.push(push[i]);
             } else {
-                boolean flag = false;
-                if (idx+1 < len) {
-                    if (i + 1 < len && pop[idx+1] == push[i+1]) {
-                        flag = true;
-                    } else if (i - 1 >= 0 && pop[idx + 1] == push[i - 1]) {
-                        flag = true;
-                    } else if (i + 1 == len) {
-                        flag = true;
-                    }
-                }
-                if (flag) {
+
+                idx++;
+                while (!pushStack.empty() && pushStack.peek() == pop[idx]) {
                     idx++;
-                    while (!pushStack.empty() && pushStack.peek() == pop[idx]) {
-                        idx++;
-                        pushStack.pop();
-                    }
-                } else {
-                    pushStack.push(push[i]);
+                    pushStack.pop();
                 }
+
             }
         }
         if (pushStack.empty()) {
