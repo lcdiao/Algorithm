@@ -1,4 +1,4 @@
-package 练习;
+package 蓝桥杯.练习;
 
 public class 地图走法 {
 	static int[][] m = new int[5][5];
