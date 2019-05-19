@@ -25,16 +25,23 @@ package LintCode.白银4;
  */
 public class 能否到达终点 {
     public static void main(String[] args) {
-        int[][] map = new int[][]{{1,1,1},{1,1,0},{1,0,9}};
-        System.out.println(reachEndpoint(map));
-        System.out.println(reachEndpoint2(map));
+        int[][] map = new int[][]{
+                {1,1,1,1,0,1},
+                {0,1,0,0,0,0},
+                {1,0,0,0,1,0},
+                {0,0,1,1,1,0},
+                {1,1,0,0,0,0},
+                {1,9,1,1,0,0}
+        };
+        System.out.println(new 能否到达终点().reachEndpoint(map));
+        //System.out.println(reachEndpoint2(map));
     }
 
     /**
      * @param map: the map
      * @return: can you reach the endpoint
      */
-    public static boolean reachEndpoint(int[][] map) {
+    public boolean reachEndpoint(int[][] map) {
         int x = map[0].length;
         int y = map.length;
         for (int i = 0; i < x; i++) {
@@ -49,9 +56,9 @@ public class 能否到达终点 {
 
     }
 
-    static boolean flag = false;
+    boolean flag = false;
 
-    public static void f(int[][] map,int x,int y,int tox,int toy) {
+    public void f(int[][] map,int x,int y,int tox,int toy) {
         if (x == tox && y == toy) {
             flag = true;
             return;

@@ -39,7 +39,8 @@ public class 将二叉树按照层级转化为链表 {
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
         root.right.right = new TreeNode(7);
-        binaryTreeToLists(root);
+
+        System.out.println(binaryTreeToLists(root));
     }
 
     /**
@@ -47,14 +48,13 @@ public class 将二叉树按照层级转化为链表 {
      * @return a lists of linked list
      */
     public static List<ListNode> binaryTreeToLists(TreeNode root) {
-        if (root == null) {
-            return null;
+        if (root == null ) {
+            return new LinkedList<ListNode>();
         }
         List<TreeNode> list = new LinkedList<>();
         list.add(root);
         List<ListNode> listNodes = new LinkedList<>();
         f(list,listNodes);
-        System.out.println(Arrays.toString(listNodes.toArray()));
         return listNodes;
     }
 
@@ -90,7 +90,10 @@ public class 将二叉树按照层级转化为链表 {
               this.val = val;
               this.left = this.right = null;
           }
-      }
+
+        public TreeNode() {
+        }
+    }
       public static class ListNode {
           int val;
           ListNode next;
