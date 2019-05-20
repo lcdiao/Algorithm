@@ -27,7 +27,7 @@ s <= 100
  */
 public class 倒可乐 {
     public static void main(String[] args) {
-        //System.out.println(getMinTimes(4,1,3));
+        System.out.println(getMinTimes(4,1,3));
         System.out.println(getMinTimes(20,7,13));
 
 
@@ -59,16 +59,16 @@ public class 倒可乐 {
             count++;
 
 
-            System.out.println(c0 + "\t" + c1 + "\t" + c2);
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+//            System.out.println(c0 + "\t" + c1 + "\t" + c2);
+//            try {
+//                Thread.sleep(1000);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
 
 
             if (c0+c1==c2||c0+c2==c1){
-                return count+1;
+                return count;
             }
 
             //小瓶子为空则无论中是否满，都倒入
@@ -78,6 +78,13 @@ public class 倒可乐 {
                 continue;
             }
 
+            //小倒大且只在满的时候倒
+            if (c1==n && c0 != s) {
+                int a = c0;
+                c0 = c0+c1>s?s:c0+c1;
+                c1 = a+c1>s?a+c1-s:0;
+                continue;
+            }
             //大倒中
             if (c0!=0 && c2 != m){
                 int a = c2;
@@ -90,13 +97,6 @@ public class 倒可乐 {
                 int a = c1;
                 c1 = c1+c2>n?n:c1+c2;
                 c2 = a+c2>n?a+c2-n:0;
-                continue;
-            }
-            //小倒大且只在满的时候倒
-            if (c1==n && c0 != s) {
-                int a = c0;
-                c0 = c0+c1>s?s:c0+c1;
-                c1 = a+c1>s?a+c1-s:0;
                 continue;
             }
         }
