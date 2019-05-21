@@ -42,6 +42,11 @@ import java.util.List;
  注意事项
  迷宫大小 <= 200000
  len(starts), len(endd) <= 10000
+
+
+
+
+ TODO lintcode只通过70%
  */
 public class 超级迷宫 {
     public static void main(String[] args) {

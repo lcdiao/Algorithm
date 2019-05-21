@@ -56,6 +56,10 @@ public class 倒可乐 {
         }
         int c0=s,c1=0,c2=0,count=0;
         while (c0 != num) {
+            //TODO 不合理。。。
+            if(count>10000){
+                return -1;
+            }
             count++;
 
 
